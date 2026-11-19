@@ -26,7 +26,7 @@ The reader asks Windows for the controller identity and firmware version. Once t
 
 Each request uses GIP command class `0`, message ID `0x0F`, and a 60-byte body. The four bytes shown are followed by 56 zero bytes. The first byte (`14`) selects the read operation, the middle two identify the record, and `1E` requests 30 bytes. The reader expects reply message ID `0x10` and checks the matching prefix, record and padding. These are application-level bytes passed to Windows; Windows handles the underlying USB framing.
 
-The capture reads stored values. It sends no calibration-start, write, firmware-update, polling-rate or force-D4X command. Nexus runs separately and can generate its own traffic. To audit a run, see `left/capture/events.jsonl` and `right/capture/events.jsonl` for observed messages and each side’s `capture/terminal.json` for the recorded dispatch body and result. The sending code is in `src/Interop/FixedStockRead.cs` in the reader source.
+The capture reads stored values. It sends no calibration-start, write, firmware-update, polling-rate or force-D4X command. Nexus runs separately and can generate its own traffic. To audit a run, see `left/capture/events.jsonl` and `right/capture/events.jsonl` for observed messages and each sides `capture/terminal.json` for the recorded dispatch body and result. The sending code is in `src/Interop/FixedStockRead.cs` in the reader source.
 
 ## What happens when you run it
 
@@ -35,7 +35,7 @@ The capture reads stored values. It sends no calibration-start, write, firmware-
 3. Press **Enter** when ready. Nexus opens if needed for either controller. A wired rate of **250 Hz** is preferred for consistency. The tool does not measure the rate.
 4. Connect one supported controller. The console checks for D4X and displays its model-specific status. The SE uses PID **1071** and the Pro uses **1003**. If a Pro stays in XInput (**100A**), wait, close apps that might use XInput indirectly, or restart your PC.
 5. The reader requests the left record, then the right. Its small window asks Windows for focus automatically. Click it only if it asks, then leave it active until the read finishes.
-6. The console shows **Lower**, **Center**, and **Upper** for each axis in calibration counts. **E0–E7** are the eight directional entries stored for each stick. A successful pair produces **captures/capture-…/snapshot.json**. An incomplete attempt can leave diagnostic files in its own folder.
+6. The console shows **Lower**, **Center**, and **Upper** for each axis in calibration counts. **E0-E7** are the eight directional entries stored for each stick. A successful pair produces **captures/capture-/snapshot.json**. An incomplete attempt can leave diagnostic files in its own folder.
 7. Press **S** to save an extra JSON copy beside the launcher, or **Enter** to skip. At the next prompt, **R** starts another capture and **Enter** closes the console.
 
 ## What the files do
@@ -50,7 +50,7 @@ The capture reads stored values. It sends no calibration-start, write, firmware-
 | calibration_capture.py / run_read_once.py | Request each stick record, validate the replies, and save the pair. |
 | **ProCalibrationReadHost.dll** | The compiled **G7 Pro Calibration Reader**, which talks to the controller through Windows. Keep it beside its two companion files. |
 | **ReceiveHost.dll** / release_se.py | The verified SE reader and its console adapter. The adapter checks device identity, reader hashes and the returned records. |
-| Each reader�s .deps.json / .runtimeconfig.json | Tell .NET how to load the reader and which runtime it needs. |
+| Each reader’s .deps.json / .runtimeconfig.json | Tell .NET how to load the reader and which runtime it needs. |
 | receipt.json | Lists packaged file checksums for the integrity check. |
 | reference-checks/windows-g7-pro-access.json | Saved result from the original Windows controller-access test. Current controller readiness is checked on each run. |
 | global.json / NuGet.Config / origin-sources.json | Record the build configuration and source origins. |
