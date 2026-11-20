@@ -1,0 +1,8 @@
+GameSir Controller Calibration Capture | Windows
+Made by u/peoplehurt6666 - Reddit
+
+Open Capture.cmd from the cloned or extracted repository folder. Press Enter when ready. 250 Hz wired is preferred for consistency.
+Connect one supported controller. Leave GameSir Nexus open for both models. D4X PID 1071 selects the SE 6.64 reader; PID 1003 selects the Pro 2.31 reader. Follow the console status.
+If D4X takes too long then replug the controller in.
+Keep the reader window active if it asks. Successful reads display both sticks and save captures/<run>/snapshot.json. Press S to save an extra copy beside Capture.cmd, R for another capture, or Enter to close.
+See README.md for the identifiers, firmware limits, exact read commands and file guide.

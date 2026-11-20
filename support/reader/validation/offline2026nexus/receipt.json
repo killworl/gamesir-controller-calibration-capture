@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-19T06:30:38.026177+00:00",
+  "reason": "Requalify calibration capture for version-independent installed Nexus capture.",
+  "hardware": "Offline tests only. No new controller capture performed.",
+  "sources": [
+    {
+      "path": "global.json",
+      "sha256": "C0671C628FDE8E60DC3447E54ADE6280230A68E1C84B4329A24327BA05E0545F",
+      "size": 55
+    },
+    {
+      "path": "LaunchCapture.cmd",
+      "sha256": "B7BBB3A7BD15727B08A58FAA908838B9038ED6DE92B1C26DCD6433138D4C4520",
+      "size": 258
+    },
+    {
+      "path": "NuGet.Config",
+      "sha256": "2142CFB2DFA2C7FEEFBE40FABCC68B0DFECADAFA99A1DB9B70239D977CF2A7EF",
+      "size": 113
+    },
+    {
+      "path": "origin-sources.json",
+      "sha256": "6B6925F291428FBBA54F2AAA3F0164953D866A90C5223830AFC2C826E5833636",
+      "size": 5496
+    },
+    {
+      "path": "scripts/calibration_capture.py",
+      "sha256": "FE57AF4D42AB0874C33C85C14B5F1036429F0433870448C5D235E90EC7DCD496",
+      "size": 13856
+    },
+    {
+      "path": "scripts/capture_console.py",
+      "sha256": "23335E84ED489DEB8B0D628F996193F731AF13B95745F456D54EE3321CE852C8",
+      "size": 7754
+    },
+    {
+      "path": "scripts/preflight.py",
+      "sha256": "A22B5294545C2BBDB8285F20F381A4FE5E958E87B3AF10CACAC1AD0537E81FE1",
+      "size": 7401
+    },
+    {
+      "path": "scripts/release_console.py",
+      "sha256": "FFED67152E6C9367E254FAB624882D174F7735AB8F5408C7A1D3B4BBED96FBCB",
+      "size": 7207
+    },
+    {
+      "path": "scripts/release_se.py",
+      "sha256": "6B26E2514AB8D79D419935738E4D0C7729B60A7CD3AC4F2AE1CD074BEB9604D1",
+      "size": 6164
+    },
+    {
+      "path": "scripts/run_read_once.py",
+      "sha256": "5D24488FB52467D96E843DC7E191037E6E2ECAF382EADCB6ABD70685845E2635",
+      "size": 4409
+    },
+    {
+      "path": "scripts/Start-Capture.ps1",
+      "sha256": "C62F400AE1367B90BA67E83B0AC27A7E668A60BD2E8E8CFB1FC7AE65524A17B2",
+      "size": 3141
+    }
+  ],
+  "builds": [
+    {
+      "path": "src/bin/Release/net10.0/ProCalibrationReadHost.deps.json",
+      "sha256": "27B6AC934DE4AE7B69BB8C885120D56713C1B8273338C63095BC71F301A963C8",
+      "size": 460
+    },
+    {
+      "path": "src/bin/Release/net10.0/ProCalibrationReadHost.dll",
+      "sha256": "34E0DA04692007C3533E547A91D2FD0FDA65123793190C9A78DBA2BD4B4A057B",
+      "size": 112128
+    },
+    {
+      "path": "src/bin/Release/net10.0/ProCalibrationReadHost.runtimeconfig.json",
+      "sha256": "2CA90A18BAC3B48286C20ACD3C1AE4F83FA38DE5ACF4B2F8CDD277BF90DC9BD7",
+      "size": 449
+    }
+  ],
+  "parent_verification_receipt_sha256": "C7C6C8C81D0B184D539BEB7A0CCD6C43C8C2B7A8D806D3349A9F733275EAD01F"
+}

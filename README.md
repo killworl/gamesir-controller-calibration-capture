@@ -30,7 +30,7 @@ The capture reads stored values. It sends no calibration-start, write, firmware-
 
 ## What happens when you run it
 
-1. Extract the entire ZIP into a writable folder. Double-click **Capture.cmd**.
+1. Clone this repository or use **Code → Download ZIP** and extract it into a writable folder. Double-click **Capture.cmd**.
 2. Setup checks Python 3.10+ and the x64 .NET 10 Runtime. You can approve a missing dependency install or exit.
 3. Press **Enter** when ready. Nexus opens if needed for either controller. A wired rate of **250 Hz** is preferred for consistency. The tool does not measure the rate.
 4. Connect one supported controller. The console checks for D4X and displays its model-specific status. The SE uses PID **1071** and the Pro uses **1003**. If a Pro stays in XInput (**100A**), wait, close apps that might use XInput indirectly, or restart your PC.
@@ -57,4 +57,10 @@ The capture reads stored values. It sends no calibration-start, write, firmware-
 
 Keep the support folder together. To share a reading, use the saved snapshot; it includes USB device identity and capture metadata.
 
-Download the release ZIP from this repository, extract it, then run Capture.cmd.
+Run **Capture.cmd** from the repository root.
+
+## Source and license
+
+The native readers live in [src/pro](src/pro) and [src/se](src/se). Build either project with the .NET 10 SDK using `dotnet build src/pro/ReceiveHost.csproj -c Release` or the corresponding SE path. The launcher source is in [support/reader/scripts](support/reader/scripts). Published reader binaries are hash-checked. Local builds require matching integrity records before deployment.
+
+Copyright © 2026 killworl (u/peoplehurt6666). Distributed under the [MIT License](LICENSE).

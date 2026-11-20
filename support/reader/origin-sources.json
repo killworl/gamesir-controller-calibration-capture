@@ -1,0 +1,165 @@
+{
+  "source": "../g7se-stock-read-host-v1",
+  "files": [
+    {
+      "path": "src/CommandLine.cs",
+      "sha256": "D10D55949BC0C8E6915C6F992DD82E4260CE15D24C56C16243043BD850E9F5FD"
+    },
+    {
+      "path": "src/Contracts.cs",
+      "sha256": "2377D3DDF55C7E840E11A5D11355074C08814A5F31A98C0FB944C9C736F45EFC"
+    },
+    {
+      "path": "src/Factory.cs",
+      "sha256": "5E12582E3832EBC828F96F0FC936210D782FC26738D50C88B21BCF8307853666"
+    },
+    {
+      "path": "src/HostRunner.cs",
+      "sha256": "C5E1804AA86F9063B0F5BA92E64E6A2485D168FD58EE63DB030BAEDEB4E63776"
+    },
+    {
+      "path": "src/Identity.cs",
+      "sha256": "B66A0CDFEC6E0579F19D1441678B9A326BF2A7B0D55738800F15EB7014BB5253"
+    },
+    {
+      "path": "src/InputSink.cs",
+      "sha256": "CFA9C4DCADC61EFE9BA08C62EF12AA249E8F1EE9B51ED187DD84260435CFD90C"
+    },
+    {
+      "path": "src/OfflineReplay.cs",
+      "sha256": "7F4B36DC2FA8CB037BCB500C1C82CCCE38BF298AE71B026F7F9B67AA1A5D38F7"
+    },
+    {
+      "path": "src/Program.cs",
+      "sha256": "EB5B9FF820120A995580C15AF0EAEF85823634C878C6025BB54158F42930C336"
+    },
+    {
+      "path": "src/ReceiveHost.csproj",
+      "sha256": "1F19E03DDCFFF51268BDE7A351227A70A66AEDEDE19BC3BC345A1F3A18E00A7D"
+    },
+    {
+      "path": "src/RunRecorder.cs",
+      "sha256": "F4F55A857BEEFF5C62210C082DB6C76A87D2DBFC6519A2BDE6B67C63DDCAC4DA"
+    },
+    {
+      "path": "src/Session.cs",
+      "sha256": "07ABA005193E17F941DFCD77188190C385E72C48C7DE22092F2E07172C8CA968"
+    },
+    {
+      "path": "src/Interop/Abi.cs",
+      "sha256": "DC64555DA03174664D7B211BA3F3076E9D14F3181607E1D0B370B632DB7A6162"
+    },
+    {
+      "path": "src/Interop/ComExports.cs",
+      "sha256": "4E90F5317160AECBC1E9ABE98890C6D8845EAA2362262037BB961B741B621ED2"
+    },
+    {
+      "path": "src/Interop/ControllerExport.cs",
+      "sha256": "607DBB077BDFD0D93A386B94125FBA32E1261234D0CAFA27D600086AE86E9EFB"
+    },
+    {
+      "path": "src/Interop/FixedStockRead.cs",
+      "sha256": "071F2CE50D1ADF3BDFEEBD9343EE470A785D42C5A7511CF7F6B02F86BB134E6E"
+    },
+    {
+      "path": "src/Interop/ForegroundWindow.cs",
+      "sha256": "297D1C0B9A2C067730957DF6E5AE2C1EDF5E54949D657478D884E6A7BC73519F"
+    },
+    {
+      "path": "src/Interop/GameControllerSurface.cs",
+      "sha256": "48C8457BE951BA4AD1F33491507602C5BD9E3E58A4BC882B9E119E72B0F853C6"
+    },
+    {
+      "path": "src/Interop/GipCapabilityProbe.cs",
+      "sha256": "C515EF3823D7C022CFF1B29295E0CFFFBCF86D6772790CFE9A6658A997E655D3"
+    },
+    {
+      "path": "src/Interop/OwnedComReference.cs",
+      "sha256": "CF0D3A7510E7F7E7EB7FD72A0C2896627A3FAF6D92269E42E5B32FCD45AB06AF"
+    },
+    {
+      "path": "src/Interop/WindowsRuntime.cs",
+      "sha256": "8A2682B4D6C13697C11B7AE20D7C5CFCAD20F07D776AC3CD4F2864A44B88490F"
+    },
+    {
+      "path": "tests/AbiTests.cs",
+      "sha256": "7763B0C2ED87724DF89A750D79BFBDEAC7E3376648C2068802E1ACDDF4110CE7"
+    },
+    {
+      "path": "tests/BindingContractTests.cs",
+      "sha256": "1C7D13FB9F750B38F18B27E85C2C03B714F3E825B4F595A49529CE97C4159E71"
+    },
+    {
+      "path": "tests/CallbackTests.cs",
+      "sha256": "6EE7AF733C5357356243BA78F3AB03AB80661B89ECA25E78A364F6A5F755CEAC"
+    },
+    {
+      "path": "tests/CapabilityTests.cs",
+      "sha256": "1720419AA8CB9957BB7C679D9126438BA6D9AD4F9A7F4C450E79DAFEACA85F1B"
+    },
+    {
+      "path": "tests/CommandTests.cs",
+      "sha256": "267695A0FEC1FE706738DEE78CA56C58F750BA34C2C6A0ACF52101A7B5217866"
+    },
+    {
+      "path": "tests/FakeNative.cs",
+      "sha256": "8451C8029A989297236C2BAC24CBB8DD8E5E7A359E94042B5C3AFAE604E7D8D6"
+    },
+    {
+      "path": "tests/FakeOuter.cs",
+      "sha256": "AA337512128DBD257247F0AF9EEFF8FAC790BCBA1EF1505702803F87FBC91418"
+    },
+    {
+      "path": "tests/FakeRuntime.cs",
+      "sha256": "43B65CEF0F87981A7E28C1AAF497FF10C0666E0A4A0CF11F2A701365E844B2E8"
+    },
+    {
+      "path": "tests/ForegroundTests.cs",
+      "sha256": "ECEB09059C6723384291B67D60CB96B45DE730B16371AD53560B89D6EBBDB79E"
+    },
+    {
+      "path": "tests/HostRunnerTests.cs",
+      "sha256": "F3876B3F227DDB541A565962812E249D352A4CB23538D2AB576996918B4F326D"
+    },
+    {
+      "path": "tests/IdentityTests.cs",
+      "sha256": "7C9E700DC62D537846F9B0E950468A52D998141E6F1EB202084EB545027C2B60"
+    },
+    {
+      "path": "tests/Program.cs",
+      "sha256": "0A1C49400D6A311409C4C715425429D91CA9DE9C45D9D863FFA716BDF410600B"
+    },
+    {
+      "path": "tests/ReadOnceTests.cs",
+      "sha256": "2FE7B981E4158319F4AD668D4B1AB04784FBD53E9E91224C92440BBB5D44B1B0"
+    },
+    {
+      "path": "tests/ReceiveHost.Tests.csproj",
+      "sha256": "6B18A2DB25E26DD3D085A767246250D710164401F04E6A11A5F6FF9A0ED91DE4"
+    },
+    {
+      "path": "tests/RecorderTests.cs",
+      "sha256": "56005CF079EE19704210362F866464D3124D9121EB15F0DE3EDB74B7A9A6BD16"
+    },
+    {
+      "path": "tests/ReplayTests.cs",
+      "sha256": "5434289F7C8562AF457B5DE234FA86B6183E11A3B5416FCDBC6B7B684AA9D523"
+    },
+    {
+      "path": "tests/SessionTests.cs",
+      "sha256": "DA00BEE63A91D9DA688E8AAF339E3D23B8E52BD1440B0A0923CDD486CDEC7BD3"
+    },
+    {
+      "path": "fixtures/receive-replay-v1.jsonl",
+      "sha256": "C104BAE9D0337FCC502EBBCA67E9950362483F6D9BF2031BF13A9FA40A5DC792"
+    },
+    {
+      "path": "global.json",
+      "sha256": "C0671C628FDE8E60DC3447E54ADE6280230A68E1C84B4329A24327BA05E0545F"
+    },
+    {
+      "path": "NuGet.Config",
+      "sha256": "2142CFB2DFA2C7FEEFBE40FABCC68B0DFECADAFA99A1DB9B70239D977CF2A7EF"
+    }
+  ]
+}
